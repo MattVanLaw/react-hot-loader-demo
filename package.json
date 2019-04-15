@@ -1,0 +1,28 @@
+{
+  "name": "react-hot-loader-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "express": "^4.16.4",
+    "react": "15.4.2",
+    "react-dom": "15.4.2",
+    "webpack": "^4.29.6"
+  },
+  "engines": {
+    "node": "11.14.0",
+    "yarn": "1.13.0"
+  },
+  "scripts": {
+    "start": "node ./backend/server.js"
+  },
+  "devDependencies": {
+    "react-hot-loader": "^4.8.0",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-middleware": "^3.6.1",
+    "webpack-hot-middleware": "^2.24.3"
+  }
+}
