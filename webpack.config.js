@@ -30,5 +30,10 @@ module.exports = {
     ],
   },
   devtool: 'source-map',
-  mode: 'development'
+  mode: 'development',
+  resolve: {
+    alias: {
+      'react-dom': '@hot-loader/react-dom'
+    }
+  }
 };
